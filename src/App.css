@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.quote-box{
+  background-color: red;
+  width:800px;
+  height:500px;
+  position:relative;
+}
+.quote-box1{
+  background-color: orange;
+  width:800px;
+  height:500px;
+  position:relative;
+}
+.quote-box2{
+  background-color: yellow;
+  width:800px;
+  height:500px;
+  position:relative;
+}
+.quote-box3{
+  background-color:green;
+  width:800px;
+  height:500px;
+  position:relative;
+}
+
+.new-quote,.tweet-quote{
+  position: absolute;
+  width: 200px;
+  height:50px;
+  background-color: purple;
+  color:black;
+  font-size: 25px;
+  border:0px;
+  border-radius:5px;
+  bottom:20px;
+  cursor: pointer;
+
+}
+.new-quote{
+  right:20px;
+}
+.tweet-quote{
+  left:20px;
+}
+.text{
+  padding:90px;
+  font-size: 50px;
+  text-align: center;
+}
+.author{
+  padding: 30px;
+  text-align: end;
+  font-size: 30px;
+}
